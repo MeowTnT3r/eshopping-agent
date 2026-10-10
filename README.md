@@ -1,8 +1,6 @@
 # eshopping Agent · 智能选购助手
 
-基于 **AgentScope 2.x、FastAPI 和 React** 的跨境电商选购 Agent。通过自然语言描述预算、用途和收货地，完成需求澄清、商品检索、方案比较与交易确认。
-
-> 当前使用样例商品目录和本地订单账本，尚未接入真实支付、物流与电商供给。Agent 编排采用 AgentScope，尚未迁移至 LangGraph。
+基于 **LangGraph、FastAPI 和 React** 的跨境电商选购 Agent。通过自然语言描述预算、用途和收货地，完成需求澄清、商品检索、方案比较与交易确认。
 
 ## 核心功能
 
@@ -17,7 +15,7 @@
 | 模块 | 技术 |
 | --- | --- |
 | 前端 | React、TypeScript、Vite、AG-UI |
-| 后端与 Agent | Python、FastAPI、AgentScope 2.x |
+| 后端与 Agent | Python、FastAPI、LangGraph |
 | 存储与检索 | SQLAlchemy、SQLite、Qdrant；Redis 为可选组件 |
 | 观测与测试 | OpenTelemetry、pytest、Vitest |
 
